@@ -733,6 +733,20 @@ ul.sub-menu {
     overflow: hidden;
 }
 
+.portfolio-section .zoom img{
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(0);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.portfolio-section .zoom:hover img{
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
 .exprience-section .exprience img {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -1425,6 +1439,8 @@ img.mfp-img {
     border-radius: 0;
     background-color:#2d3038;
     color: #fff;
+    display: inline;
+
 }
 
 .form-control {
